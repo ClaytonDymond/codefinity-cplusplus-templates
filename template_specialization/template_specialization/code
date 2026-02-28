@@ -6,7 +6,7 @@ T TemplateFunction(T value) { return value; }
 // Write your code here
 // ...
 template<>
-std::string TemplateFunction<std::string>(std::string value) {return "Specialized: " + value;}    
+std::string TemplateFunction(std::string value) {return "Specialized: " + value;}    
 
 
 int main()
