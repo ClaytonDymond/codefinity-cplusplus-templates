@@ -1,0 +1,11 @@
+#include <iostream>
+#include <array>
+#include <utility>
+#include <vector>
+
+int main() 
+{
+    std::pair<int, std::string> testPair(1, "c<>definity");
+    std::array<char, 5> testArray{ '1', '2', '3', '4', '5' };
+    std::vector<int> testVecto{ 1, 2, 3, 4, 5 }; 
+}
