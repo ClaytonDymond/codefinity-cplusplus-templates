@@ -1,0 +1,14 @@
+#include <iostream>
+
+template<typename t1, typename t2>
+void print_pair(t1 first, t2 second)
+{ 
+    std::cout << "{ pair: " << first << ", " << second << " }" << std::endl;
+}
+
+int main()
+{
+    // Specify one more type
+    print_pair<int, std::string>(5, "cats");
+    print_pair<char, float>('q', 12.5);
+}
